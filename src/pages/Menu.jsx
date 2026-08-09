@@ -11,9 +11,15 @@ function Menu() {
         path="/menu"
       />
       <MenuHero />
-      <MenuSection heading="Food" items={menuFood} tone="light" />
-      <MenuSection heading="Drinks" items={menuDrinks} tone="dark" />
       <MenuNote />
+      <MenuSection heading="Food" items={menuFood} tone="light" />
+      <MenuSection
+        heading="Drinks"
+        items={menuDrinks.filter((item) => !String(item.price).startsWith('+'))}
+        secondaryHeading="Add-Ins"
+        secondaryItems={menuDrinks.filter((item) => String(item.price).startsWith('+'))}
+        tone="light"
+      />
     </>
   )
 }

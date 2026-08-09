@@ -174,86 +174,119 @@ export const aboutSections = {
   },
 }
 
-// FILLER MENU — 10 food items + 5 drinks, split per client request.
-// Replace with the real menu + pricing before publishing.
 export const menuFood = [
   {
-    name: 'Tomato, Burrata & Pesto Focaccia',
-    description: 'Grilled house focaccia, San Marzano tomato sauce, fresh burrata, basil pesto.',
+    name: 'Yogurt Parfait',
+    description: 'Housemade jam + granola',
+    price: '$6.50',
+  },
+  {
+    name: 'Quiche',
+    description: 'Spinach, zucchini, tomatoes, Canadian bacon + Gruyère',
+    price: '$6.95',
+  },
+  {
+    name: 'Organic Green Salad',
+    description: 'Greek tomatoes, feta, olives, cucumbers + onions',
     price: '$12.95',
   },
   {
-    name: 'Eggplant, Mozzarella & Tomato Focaccia',
-    description: 'Roasted eggplant, fresh mozzarella, tomato, olive oil.',
+    name: 'Focaccia Sandwich',
+    description: 'Tomato, pesto, mozzarella + arugula',
     price: '$12.95',
   },
   {
-    name: 'Rosemary Parmesan Focaccia',
-    description: 'House-baked focaccia, rosemary, shaved parmesan, flaky salt.',
-    price: '$15.00',
-  },
-  {
-    name: 'Spinach, Ricotta & Lemon Zest Focaccia',
-    description: 'Wilted spinach, whipped ricotta, lemon zest, cracked pepper.',
-    price: '$12.95',
+    name: 'Turkey Focaccia Sandwich',
+    description: 'All-natural turkey, Gruyère, mustard mayo, arugula + tomato',
+    price: '$13.00',
   },
   {
     name: 'Cheese Board',
-    description: "Rotating selection of local and imported cheeses, honey, crackers.",
+    description: 'Selection of 3 cheeses',
     price: '$18.00',
   },
   {
-    name: 'Cheese & Salumi Board',
-    description: 'Cheese board plus cured meats, olives, grapes.',
-    price: '$27.00',
+    name: 'Cheese + Salumi Board',
+    description: 'A mix of cheeses and cured meats.',
+    price: '$21.00',
   },
   {
-    name: 'Blueberry Scone',
-    description: 'Baked fresh daily, finished with turbinado sugar.',
-    price: '$5.50',
-  },
-  {
-    name: 'Cranberry Almond Cake',
-    description: 'Almond tea cake, roasted cranberries, sliced almonds.',
-    price: '$6.00',
-  },
-  {
-    name: 'Walnut Spice Loaf',
-    description: 'Spiced loaf cake studded with toasted walnuts.',
-    price: '$5.50',
-  },
-  {
-    name: 'Morning Pastry',
-    description: 'Flaky laminated pastry, sugar-crusted, baked to order.',
-    price: '$6.50',
+    name: 'Focaccia Fridays!!!',
+    description: 'Fresh Friday focaccia special.',
+    price: 'Special',
   },
 ]
 
 export const menuDrinks = [
   {
-    name: 'Latte',
-    description: 'Espresso, steamed milk, latte art.',
-    price: '$4.75',
+    name: 'Espresso',
+    description: 'Classic shot of espresso.',
+    price: '$4.00',
+  },
+  {
+    name: 'Fresh Brew',
+    description: 'House drip coffee.',
+    price: '$4.00',
+  },
+  {
+    name: 'Americano',
+    description: 'Espresso with hot water.',
+    price: '$4.25',
   },
   {
     name: 'Cappuccino',
-    description: 'Espresso, steamed milk, thick microfoam.',
+    description: 'Espresso, steamed milk, rich foam.',
     price: '$4.75',
   },
   {
-    name: 'Cold Brew',
-    description: 'Slow-steeped, served over ice.',
+    name: 'Latte',
+    description: 'Espresso and steamed milk.',
+    price: '$5.25',
+  },
+  {
+    name: 'Iced Coffee',
+    description: 'Cold coffee over ice.',
+    price: '$4.50',
+  },
+  {
+    name: 'Iced Fresh Brew',
+    description: 'Freshly brewed coffee served iced.',
     price: '$4.75',
   },
   {
-    name: 'South Salem Winery Malbec',
-    description: 'New York State Malbec, by the glass.',
-    price: '$12.00',
+    name: 'Iced Americano',
+    description: 'Espresso and cold water over ice.',
+    price: '$4.75',
   },
   {
-    name: 'South Salem Winery Dry Cider',
-    description: 'New York State dry cider, by the bottle.',
-    price: '$9.00',
+    name: 'Iced Latte',
+    description: 'Espresso and chilled milk.',
+    price: '$5.25',
+  },
+  {
+    name: 'Double Shot',
+    description: 'Extra espresso boost.',
+    price: '$4.25',
+  },
+  {
+    name: 'Almond Milk',
+    description: 'Dairy-free milk alternative.',
+    price: '+$1.00',
+  },
+  {
+    name: 'Oat Milk',
+    description: 'Creamy oat milk alternative.',
+    price: '+$1.00',
+  },
+  {
+    name: 'Extra Shot',
+    description: 'Add a little more espresso.',
+    price: '+$1.00',
+  },
+  {
+    name: 'Tea',
+    description: 'Black • Green • Herbal • Decaf available',
+    price: '$4.00',
   },
 ]
 
