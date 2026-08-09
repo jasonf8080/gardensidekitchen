@@ -1,0 +1,7 @@
+export { default as Hero } from './Hero.jsx'
+export { default as WelcomeSplit } from './WelcomeSplit.jsx'
+export { default as MenuHighlights } from './MenuHighlights.jsx'
+export { default as PartnerSplit } from './PartnerSplit.jsx'
+export { default as VisitUs } from './VisitUs.jsx'
+export { default as GalleryStrip } from './GalleryStrip.jsx'
+export { default as SocialCTA } from './SocialCTA.jsx'

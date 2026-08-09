@@ -1,0 +1,5 @@
+export { default as Navbar } from './Navbar.jsx'
+export { default as Footer } from './Footer.jsx'
+export { default as SEO } from './SEO.jsx'
+export { default as ScrollToTop } from './ScrollToTop.jsx'
+export { default as Logo } from './Logo.jsx'
