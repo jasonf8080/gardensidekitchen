@@ -59,7 +59,7 @@ export const services = [
     cta: 'See Bakery Case',
     image: {
       tag: 'service-bakery',
-      src: '/images/service-bakery.jpg',
+      src: '/images/optimized/service-bakery.webp',
       alt: 'Five sugar-topped kouign-amann pastries in paper cups on a wooden tray',
     },
   },
@@ -70,7 +70,7 @@ export const services = [
     cta: 'See Coffee Menu',
     image: {
       tag: 'service-coffee',
-      src: '/images/service-coffee.jpg',
+      src: '/images/optimized/service-coffee.webp',
       alt: 'Latte with foam art beside a blueberry scone on a metal plate at Gardenside Kitchen',
     },
   },
@@ -81,7 +81,7 @@ export const services = [
     cta: 'See Focaccias',
     image: {
       tag: 'service-focaccia',
-      src: '/images/service-focaccia.jpg',
+      src: '/images/optimized/service-focaccia.webp',
       alt: 'Grilled focaccia topped with burrata, tomato sauce, and pesto on a wooden board',
     },
   },
@@ -98,7 +98,7 @@ export const partners = [
     href: 'https://southsalemwinery.com/',
     image: {
       tag: 'about',
-      src: '/images/about-winery.jpg',
+      src: '/images/optimized/about-winery.webp',
       alt: 'South Salem Winery Malbec bottle beside a cheese, prosciutto, salami, and grape board',
     },
   },
@@ -110,7 +110,7 @@ export const partners = [
     href: 'https://www.gossettnursery.com/',
     image: {
       tag: 'about',
-      src: '/images/about-nursery.jpg',
+      src: '/images/optimized/about-nursery.webp',
       alt: 'Gossett Brothers Nursery storefront with pottery and garden displays out front',
     },
   },
@@ -118,19 +118,19 @@ export const partners = [
 
 export const homeGallery = [
   {
-    src: '/images/gallery-walnut-loaf.jpg',
+    src: '/images/optimized/gallery-walnut-loaf.webp',
     alt: 'Slice of walnut spice loaf cake on a wooden board at Gardenside Kitchen',
   },
   {
-    src: '/images/gallery-scones.jpg',
+    src: '/images/optimized/gallery-scones.webp',
     alt: 'Three stacked blueberry scones on a wooden serving board',
   },
   {
-    src: '/images/gallery-cranberry-cake.jpg',
+    src: '/images/optimized/gallery-cranberry-cake.webp',
     alt: 'Slice of cranberry almond cake topped with sliced almonds',
   },
   {
-    src: '/images/gallery-cider.jpg',
+    src: '/images/optimized/gallery-cider.webp',
     alt: 'South Salem Winery dry cider bottle on a wooden table in the greenhouse café',
   },
 ]
@@ -144,7 +144,7 @@ export const aboutSections = {
     ],
     image: {
       tag: 'about',
-      src: '/images/about-greenhouse.jpg',
+      src: '/images/optimized/about-greenhouse.webp',
       alt: 'Hanging ferns and flowering plants inside the Gossett Brothers Nursery greenhouse',
     },
   },
@@ -156,7 +156,7 @@ export const aboutSections = {
     ],
     image: {
       tag: 'about',
-      src: '/images/about-winery.jpg',
+      src: '/images/optimized/about-winery.webp',
       alt: 'South Salem Winery Malbec bottle beside a cheese, prosciutto, salami, and grape board',
     },
   },
@@ -168,7 +168,7 @@ export const aboutSections = {
     ],
     image: {
       tag: 'service-bakery',
-      src: '/images/service-bakery.jpg',
+      src: '/images/optimized/service-bakery.webp',
       alt: 'Five sugar-topped kouign-amann pastries in paper cups on a wooden tray',
     },
   },

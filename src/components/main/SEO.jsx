@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
 const SITE_URL = 'https://gardensidekitchen.com'
-const DEFAULT_IMAGE = `${SITE_URL}/images/og-image.jpg`
+const DEFAULT_IMAGE = `${SITE_URL}/images/optimized/og-image.webp`
 
 const LOCAL_BUSINESS_JSON_LD = {
   '@context': 'https://schema.org',

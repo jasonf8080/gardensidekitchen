@@ -4,15 +4,15 @@ import { business } from '../../data/data.js'
 
 const rotatingPhotos = [
   {
-    src: '/images/about-greenhouse.jpg',
+    src: '/images/optimized/about-greenhouse.webp',
     alt: 'Hanging ferns and flowering plants inside the Gossett Brothers Nursery greenhouse',
   },
   {
-    src: '/images/service-bakery.jpg',
+    src: '/images/optimized/service-bakery.webp',
     alt: 'Handcrafted pastries displayed in the Gardenside bakery case',
   },
   {
-    src: '/images/about-winery.jpg',
+    src: '/images/optimized/about-winery.webp',
     alt: 'South Salem Winery Malbec bottle beside a cheese and charcuterie board',
   },
 ]

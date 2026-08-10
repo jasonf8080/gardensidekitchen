@@ -2,10 +2,10 @@ function MenuHero() {
   return (
     <section className="relative flex min-h-[35vh] flex-col items-center justify-center overflow-hidden px-6 py-20 text-center text-secondary">
       <img
-        src="/images/service-focaccia.jpg"
+        src="/images/optimized/service-focaccia.webp"
         alt="Grilled focaccia topped with burrata, tomato sauce, and pesto on a wooden board"
         width={1600}
-        height={900}
+        height={2000}
         loading="eager"
         className="absolute inset-0 h-full w-full object-cover"
       />

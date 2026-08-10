@@ -5,10 +5,10 @@ function Hero() {
   return (
     <section className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden px-6 py-24 text-center text-secondary">
       <img
-        src="/images/hero-counter.jpg"
+        src="/images/optimized/hero-counter.webp"
         alt="Order counter at Gardenside Kitchen with pendant lights, chalkboard menus, and a wine shelf"
         width={1600}
-        height={1067}
+        height={1205}
         loading="eager"
         className="absolute inset-0 h-full w-full object-cover"
       />

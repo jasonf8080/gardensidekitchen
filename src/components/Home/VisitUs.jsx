@@ -4,11 +4,11 @@ import { contact, hours } from '../../data/data.js'
 
 const VISIT_PHOTOS = [
   {
-    src: '/images/about-nursery.jpg',
+    src: '/images/optimized/about-nursery.webp',
     alt: 'Gossett Brothers Nursery storefront and outdoor garden display in South Salem, NY',
   },
   {
-    src: '/images/hero-counter.jpg',
+    src: '/images/optimized/hero-counter.webp',
     alt: 'Order counter at Gardenside Kitchen with pendant lights and chalkboard menus',
   },
 ]
