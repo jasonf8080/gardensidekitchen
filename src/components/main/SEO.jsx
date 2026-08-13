@@ -9,6 +9,7 @@ const LOCAL_BUSINESS_JSON_LD = {
   '@id': `${SITE_URL}/#business`,
   name: 'Gardenside Kitchen & Coffee Bar',
   image: DEFAULT_IMAGE,
+  logo: `${SITE_URL}/logo/gardensideLogo.webp`,
   url: SITE_URL,
   telephone: '+1-917-837-1131',
   priceRange: '$$',
