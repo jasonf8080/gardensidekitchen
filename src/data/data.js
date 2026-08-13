@@ -177,28 +177,33 @@ export const aboutSections = {
 export const menuFood = [
   {
     name: 'Yogurt Parfait',
-    description: 'Housemade jam + granola',
+    description: 'House-made jam + granola',
     price: '$6.50',
   },
   {
     name: 'Quiche',
-    description: 'Spinach, zucchini, tomatoes, Canadian bacon + Gruyère',
+    description: 'Spinach, zucchini, tomatoes, scallions + Gruyère',
     price: '$6.95',
   },
   {
-    name: 'Organic Green Salad',
-    description: 'Greek tomatoes, feta, olives, cucumbers + onions',
+    name: 'Organic Salad',
+    description: 'Little gem, feta, olives, tomatoes + red onions',
     price: '$12.95',
   },
   {
-    name: 'Focaccia Sandwich',
-    description: 'Tomato, pesto, mozzarella + arugula',
+    name: 'Focaccia Sandwiches',
+    description: 'Mozzarella, tomato, basil, arugula + eggplant',
     price: '$12.95',
   },
   {
-    name: 'Turkey Focaccia Sandwich',
-    description: 'All-natural turkey, Gruyère, mustard mayo, arugula + tomato',
-    price: '$13.00',
+    name: 'Focaccia Sandwiches',
+    description: 'Rosemary ham, Fontina, mustard-mayo + arugula',
+    price: '$13.95',
+  },
+  {
+    name: 'Add prosciutto',
+    description: '',
+    price: '+$3.00',
   },
   {
     name: 'Cheese Board',
@@ -211,9 +216,9 @@ export const menuFood = [
     price: '$21.00',
   },
   {
-    name: 'Focaccia Fridays!!!',
-    description: 'Fresh Friday focaccia special.',
-    price: 'Special',
+    name: 'Hummus + Bean Salad',
+    description: '',
+    price: '$8.95',
   },
 ]
 
