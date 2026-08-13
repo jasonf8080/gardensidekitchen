@@ -1,2 +1,5 @@
- /site.webmanifest
-   Content-Type: application/manifest+json
+/site.webmanifest
+  Content-Type: application/manifest+json
+
+/site.webmanifest.json
+  Content-Type: application/manifest+json
