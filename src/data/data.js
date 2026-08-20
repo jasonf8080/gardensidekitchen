@@ -177,48 +177,46 @@ export const aboutSections = {
 export const menuFood = [
   {
     name: 'Yogurt Parfait',
-    description: 'House-made jam + granola',
+    description: 'Housemade jam + granola',
     price: '$6.50',
   },
   {
     name: 'Quiche',
-    description: 'Spinach, zucchini, tomatoes, scallions + Gruyère',
+    description: 'Spinach, zucchini, tomatoes, scallions, Gruyère, kale, Greek',
     price: '$6.95',
   },
   {
     name: 'Organic Salad',
-    description: 'Little gem, feta, olives, tomatoes + red onions',
+    description: 'Little gem, feta, olives, tomatoes, red onions, egg',
     price: '$12.95',
   },
   {
-    name: 'Focaccia Sandwiches',
-    description: 'Mozzarella, tomato, basil, arugula + eggplant',
+    name: 'Mozzarella',
+    description: 'Tomato, basil, arugula, eggplant',
     price: '$12.95',
+    isFocaccia: true,
   },
   {
-    name: 'Focaccia Sandwiches',
-    description: 'Rosemary ham, Fontina, mustard-mayo + arugula',
+    name: 'Rosemary Ham',
+    description: 'Fontina, mustard mayo, arugula',
     price: '$13.95',
+    isFocaccia: true,
   },
   {
-    name: 'Add prosciutto',
+    name: 'Add Prosciutto',
     description: '',
     price: '+$3.00',
+    isFocaccia: true,
   },
   {
     name: 'Cheese Board',
-    description: 'Selection of 3 cheeses',
+    description: '',
     price: '$18.00',
   },
   {
     name: 'Cheese + Salumi Board',
-    description: 'A mix of cheeses and cured meats.',
-    price: '$21.00',
-  },
-  {
-    name: 'Hummus + Bean Salad',
     description: '',
-    price: '$8.95',
+    price: '$21.00',
   },
 ]
 

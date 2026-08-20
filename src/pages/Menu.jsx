@@ -12,7 +12,13 @@ function Menu() {
       />
       <MenuHero />
       <MenuNote />
-      <MenuSection heading="Food" items={menuFood} tone="light" />
+      <MenuSection
+        heading="Food"
+        items={menuFood.filter((item) => !item.isFocaccia && !String(item.price).startsWith('+'))}
+        secondaryHeading="Focaccia Sandwiches"
+        secondaryItems={menuFood.filter((item) => item.isFocaccia || String(item.price).startsWith('+'))}
+        tone="light"
+      />
       <MenuSection
         heading="Drinks"
         items={menuDrinks.filter((item) => !String(item.price).startsWith('+'))}
