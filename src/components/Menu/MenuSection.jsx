@@ -17,7 +17,7 @@ function MenuSection({ heading, items, tone = 'light', secondaryHeading = null, 
     <li key={item.name} data-reveal>
       <div className="flex items-baseline justify-between gap-3">
         <h3 className="text-xl md:text-2xl">{item.name}</h3>
-        <span className="whitespace-nowrap text-lg text-accent md:text-xl">{item.price}</span>
+        {item.price ? <span className="whitespace-nowrap text-lg text-accent md:text-xl">{item.price}</span> : null}
       </div>
       <p className={`mt-1 text-base leading-relaxed md:text-lg ${isDark ? 'text-secondary/70' : 'text-primary/65'}`}>
         {item.description}

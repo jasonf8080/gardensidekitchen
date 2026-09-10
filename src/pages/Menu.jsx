@@ -1,6 +1,6 @@
 import { SEO } from '../components/main'
 import { MenuHero, MenuSection, MenuNote } from '../components/Menu'
-import { menuFood, menuDrinks } from '../data/data.js'
+import { menuMorning, menuLunch, menuLunchFocaccia, menuAfternoonEvening } from '../data/data.js'
 
 function Menu() {
   return (
@@ -13,17 +13,20 @@ function Menu() {
       <MenuHero />
       <MenuNote />
       <MenuSection
-        heading="Food"
-        items={menuFood.filter((item) => !item.isFocaccia && !String(item.price).startsWith('+'))}
-        secondaryHeading="Focaccia Sandwiches"
-        secondaryItems={menuFood.filter((item) => item.isFocaccia || String(item.price).startsWith('+'))}
+        heading="Morning — or until sold out"
+        items={menuMorning}
         tone="light"
       />
       <MenuSection
-        heading="Drinks"
-        items={menuDrinks.filter((item) => !String(item.price).startsWith('+'))}
-        secondaryHeading="Add-Ins"
-        secondaryItems={menuDrinks.filter((item) => String(item.price).startsWith('+'))}
+        heading="Lunch — or until sold out"
+        items={menuLunch}
+        secondaryHeading="Focaccia Sandwiches"
+        secondaryItems={menuLunchFocaccia}
+        tone="light"
+      />
+      <MenuSection
+        heading="Afternoon / Evening — to pair with your wines"
+        items={menuAfternoonEvening}
         tone="light"
       />
     </>

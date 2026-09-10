@@ -1,8 +1,5 @@
 // Single source of truth for all Gardenside Kitchen copy and repeatable content.
 // v2 — rebuilt with real photos supplied by the client on 2026-08-08.
-// The menu below is FILLER content (10 food items, 5 drinks) per client request —
-// swap in the real menu and prices before this goes live. Items marked
-// PLACEHOLDER were not published anywhere and still need the client's input.
 
 export const business = {
   name: 'Gardenside Kitchen & Coffee Bar',
@@ -174,49 +171,60 @@ export const aboutSections = {
   },
 }
 
-export const menuFood = [
+export const menuMorning = [
   {
     name: 'Yogurt Parfait',
-    description: 'Housemade peach jam + granola',
+    description: 'Housemade jam + granola',
     price: '$6.50',
   },
   {
     name: 'Quiche',
-    description: 'Ham, zucchini, shiitake, caramelized onions, tomatoes, scallions + Gruyère',
-    price: '$6.95',
+    description: 'Zucchini, spinach, onion, tomatoes, Gruyere',
+    price: '$7.95',
   },
   {
-    name: 'Organic Caesar Salad',
-    description: 'Little gem lettuce, croutons + hard-boiled egg',
+    name: 'Selection of Housemade Baked Goods',
+    description: '',
+    price: '',
+  },
+]
+
+export const menuLunch = [
+  {
+    name: 'Organic Tuna Caesar Salad',
+    description: 'Imported tuna, cucumber, tomatoes, capers',
     price: '$12.95',
   },
+]
+
+export const menuLunchFocaccia = [
   {
     name: 'Mozzarella',
-    description: 'Mozzarella, tomato, basil, eggplant + arugula',
+    description: 'Tomato, basil, pesto, arugula',
     price: '$12.95',
-    isFocaccia: true,
-  },
-  {
-    name: 'Imported Ham',
-    description: 'Imported ham, arugula, fontina + mustard mayo',
-    price: '$13.95',
-    isFocaccia: true,
   },
   {
     name: 'Add prosciutto',
     description: '',
     price: '+$3.00',
-    isFocaccia: true,
   },
+  {
+    name: 'Cheddar & Egg',
+    description: 'Watercress, cucumber, avocado, mustard mayo',
+    price: '$12.95',
+  },
+]
+
+export const menuAfternoonEvening = [
   {
     name: 'Cheese Board',
     description: 'Selection of 3 cheeses',
-    price: '$18.00',
+    price: '',
   },
   {
-    name: 'Cheese + Salumi Board',
-    description: '',
-    price: '$21.00',
+    name: 'Cheese & Salumi Board',
+    description: '3 cheeses + assorted salumi',
+    price: '',
   },
 ]
 
