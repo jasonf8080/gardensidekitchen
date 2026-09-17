@@ -174,16 +174,16 @@ export const aboutSections = {
 export const menuMorning = [
   {
     name: 'Yogurt Parfait',
-    description: 'Housemade jam + granola',
-    price: '$6.50',
+    description: 'Housemade jam, granola',
+    price: '',
   },
   {
     name: 'Quiche',
-    description: 'Zucchini, spinach, onion, tomatoes, Gruyere',
-    price: '$7.95',
+    description: 'Spinach, shiitake, melted onions, Gruyere + soppressata',
+    price: '',
   },
   {
-    name: 'Selection of Housemade Baked Goods',
+    name: 'Selection of House Baked Goods',
     description: '',
     price: '',
   },
@@ -191,39 +191,34 @@ export const menuMorning = [
 
 export const menuLunch = [
   {
-    name: 'Organic Tuna Caesar Salad',
-    description: 'Imported tuna, cucumber, tomatoes, capers',
-    price: '$12.95',
+    name: 'Organic Salad / Imported Tuna',
+    description: 'Cucumber, capers, tomatoes, Caesar dressing',
+    price: '',
   },
 ]
 
 export const menuLunchFocaccia = [
   {
-    name: 'Mozzarella',
-    description: 'Tomato, basil, pesto, arugula',
-    price: '$12.95',
+    name: 'Capicola',
+    description: 'Soppressata, mozzarella, tomato, pesto',
+    price: '',
   },
   {
-    name: 'Add prosciutto',
-    description: '',
-    price: '+$3.00',
-  },
-  {
-    name: 'Cheddar & Egg',
-    description: 'Watercress, cucumber, avocado, mustard mayo',
-    price: '$12.95',
+    name: 'Farmhouse cheddar',
+    description: 'Avocado, watercress, cucumber, mustard/mayo',
+    price: '',
   },
 ]
 
 export const menuAfternoonEvening = [
   {
     name: 'Cheese Board',
-    description: 'Selection of 3 cheeses',
+    description: '',
     price: '',
   },
   {
-    name: 'Cheese & Salumi Board',
-    description: '3 cheeses + assorted salumi',
+    name: 'Cheese + Salumi Board',
+    description: '',
     price: '',
   },
 ]
