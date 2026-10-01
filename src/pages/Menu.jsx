@@ -13,19 +13,19 @@ function Menu() {
       <MenuHero />
       <MenuNote />
       <MenuSection
-        heading="Morning — or until sold out"
+        heading="Morning (or until sold out)"
         items={menuMorning}
         tone="light"
       />
       <MenuSection
-        heading="Lunch — or until sold out"
+        heading="Afternoon (or until sold out)"
         items={menuLunch}
         secondaryHeading="Focaccia Sandwiches"
         secondaryItems={menuLunchFocaccia}
         tone="light"
       />
       <MenuSection
-        heading="Afternoon / Evening — to pair with your wine"
+        heading="Afternoon / Evening — to pair with your wines!"
         items={menuAfternoonEvening}
         tone="light"
       />
