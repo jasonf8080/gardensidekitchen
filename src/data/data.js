@@ -174,12 +174,12 @@ export const aboutSections = {
 export const menuMorning = [
   {
     name: 'Yogurt Parfait',
-    description: 'Housemade jam + granola',
+    description: 'House-made jam + granola',
     price: '$6.50',
   },
   {
     name: 'Quiche',
-    description: 'Spinach, shiitake, melted onion + Gruyère',
+    description: 'Spinach, shiitake, melted onions, Gruyère',
     price: '$7.50',
   },
   {
@@ -192,20 +192,20 @@ export const menuMorning = [
 export const menuLunch = [
   {
     name: 'Organic Salad',
-    description: 'Imported tuna, tomatoes, potatoes, green beans, olives, Niçoise vinaigrette, egg',
+    description: 'Tomatoes, egg, green beans, olives, Niçoise vinaigrette, imported tuna',
     price: '$13.95',
   },
 ]
 
 export const menuLunchFocaccia = [
   {
-    name: 'Coppa',
-    description: 'Roasted pepper agrodolce, mozzarella, arugula, soppressata',
-    price: '$15.50',
+    name: 'Focaccia Sandwich',
+    description: 'Goat cheese, beets, pickled onions, arugula',
+    price: '$13.95',
   },
   {
-    name: 'Goat Cheese',
-    description: 'Herbs, beets, pickled onions, arugula',
+    name: '“P.L.T.”',
+    description: 'Pancetta, lettuce, tomato, lemon herb Parmesan mayo',
     price: '$13.95',
   },
 ]
@@ -217,7 +217,7 @@ export const menuAfternoonEvening = [
     price: '$18.00',
   },
   {
-    name: 'Cheese + Salumi Board',
+    name: 'Cheese & Salumi Board',
     description: '',
     price: '$21.00',
   },
