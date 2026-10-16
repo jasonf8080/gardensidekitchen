@@ -27,6 +27,7 @@ function Menu() {
       <MenuSection
         heading="Afternoon / Evening"
         items={menuAfternoonEvening}
+        note="To pair with your wines!"
         tone="light"
       />
     </>

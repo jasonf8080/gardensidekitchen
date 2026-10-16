@@ -5,7 +5,7 @@ import useScrollReveal from '../../hooks/useScrollReveal.js'
  * Shared list layout for a menu category (Food, Drinks). Two-column on
  * desktop so a 10-item list doesn't run too long down the page.
  */
-function MenuSection({ heading, items, tone = 'light', secondaryHeading = null, secondaryItems = [] }) {
+function MenuSection({ heading, items, tone = 'light', secondaryHeading = null, secondaryItems = [], note = null }) {
   const sectionRef = useRef(null)
   useScrollReveal(sectionRef, '[data-reveal]', { stagger: 0.05 })
 
@@ -35,6 +35,12 @@ function MenuSection({ heading, items, tone = 'light', secondaryHeading = null, 
           <h2 className="font-display text-3xl md:text-4xl">{heading}</h2>
           <span className={`h-px flex-1 ${isDark ? 'bg-secondary/20' : 'bg-primary/15'}`} aria-hidden="true" />
         </div>
+
+        {note && (
+          <p className="mt-4 text-base font-medium italic text-primary/75 md:text-xl" data-reveal>
+            {note}
+          </p>
+        )}
 
         <ul className="mt-10 grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
           {primaryItems.map(renderItem)}

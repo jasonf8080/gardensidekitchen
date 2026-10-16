@@ -191,8 +191,8 @@ export const menuMorning = [
 
 export const menuLunch = [
   {
-    name: 'Organic Salad',
-    description: 'Tomatoes, egg, green beans, olives, Niçoise vinaigrette, imported tuna',
+    name: 'Field Greens Salad',
+    description: 'White beans, carrots, Caesar dressing, Parmesan',
     price: '$13.95',
   },
 ]
@@ -200,13 +200,13 @@ export const menuLunch = [
 export const menuLunchFocaccia = [
   {
     name: 'Focaccia Sandwich',
-    description: 'Goat cheese, beets, pickled onions, arugula',
+    description: 'Fontina cheese, arugula, pears',
     price: '$13.95',
   },
   {
-    name: '“P.L.T.”',
-    description: 'Pancetta, lettuce, tomato, lemon herb Parmesan mayo',
-    price: '$13.95',
+    name: 'Add (all-natural) prosciutto or salami',
+    description: '',
+    price: '$3.50',
   },
 ]
 
@@ -217,7 +217,7 @@ export const menuAfternoonEvening = [
     price: '$18.00',
   },
   {
-    name: 'Cheese & Salumi Board',
+    name: 'Assorted Cheese & Salumi Board',
     description: '',
     price: '$21.00',
   },
