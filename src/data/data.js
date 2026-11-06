@@ -173,39 +173,39 @@ export const aboutSections = {
 
 export const menuMorning = [
   {
-    name: 'Yogurt Parfait',
-    description: 'House-made jam + granola',
-    price: '$6.50',
-  },
-  {
-    name: 'Egg Bites',
-    description: 'Cottage cheese + veggies',
-    price: '',
-  },
-  {
     name: 'Quiche',
-    description: 'Spinach, onions, shiitake, Gruyère',
+    description: 'Spinach, shiitake, bacon, onion, Gruyère',
     price: '$7.50',
   },
   {
-    name: 'Selection of House-Baked Goods',
-    description: '',
-    price: '',
+    name: 'Egg Bites',
+    description: 'Spinach, shiitake, onion, cheddar',
+    price: '$6.50',
+  },
+  {
+    name: 'Parfait',
+    description: 'Yogurt, homemade jam, granola',
+    price: '$6.50',
   },
 ]
 
 export const menuLunch = [
   {
-    name: 'Organic Field Greens Salad',
-    description: 'White bean salad, feta',
+    name: 'Focaccia Sandwich',
+    description: 'Butternut squash, kale pesto, spinach, Asiago on Parmesan focaccia',
     price: '$13.95',
+  },
+  {
+    name: 'Focaccia Sandwich',
+    description: 'Butternut squash, prosciutto, kale pesto, spinach, Asiago',
+    price: '$15.95',
   },
 ]
 
 export const menuLunchFocaccia = [
   {
     name: 'Focaccia Sandwich',
-    description: 'Manchego cheese, cider-poached apples, mustard mayo, greens; add chorizo +$2.00',
+    description: 'Butternut squash, kale pesto, spinach, Asiago on Parmesan focaccia\n• Add chorizo +$15.95\n• All natural! No nitrates, no nitrites!',
     price: '$13.95',
   },
 ]
@@ -213,12 +213,12 @@ export const menuLunchFocaccia = [
 export const menuAfternoonEvening = [
   {
     name: 'Cheese Board',
-    description: '',
+    description: '3 cheeses',
     price: '$18.00',
   },
   {
-    name: 'Salami & Cheese Board',
-    description: '',
+    name: 'Cheese & Salami Board',
+    description: '3 cheeses, prosciutto, soppressata',
     price: '$21.00',
   },
 ]
