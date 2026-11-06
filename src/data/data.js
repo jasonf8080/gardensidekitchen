@@ -202,13 +202,7 @@ export const menuLunch = [
   },
 ]
 
-export const menuLunchFocaccia = [
-  {
-    name: 'Focaccia Sandwich',
-    description: 'Butternut squash, kale pesto, spinach, Asiago on Parmesan focaccia\n• Add chorizo +$15.95\n• All natural! No nitrates, no nitrites!',
-    price: '$13.95',
-  },
-]
+export const menuLunchFocaccia = []
 
 export const menuAfternoonEvening = [
   {
